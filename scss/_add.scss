@@ -42,7 +42,7 @@ $dark: rgba(41, 40, 48, 1);
 .add-vectors2 {
     background-color: $whitestt;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
-    padding: 63px 65px ;
+    padding: 63px 65px;
     text-align: center;
 }
 .add-vectors3 {
@@ -115,32 +115,71 @@ $dark: rgba(41, 40, 48, 1);
     margin-bottom: 24px;
 }
 @media screen and (max-width: 1200px) {
-    .add-top{
-        .addt-desc{
+    .add-top {
+        .addt-desc {
             font-size: 76px;
             line-height: 76px;
-            
         }
-        .addt-title{
+        .addt-title {
             font-size: 22px;
             line-height: 28px;
         }
     }
 }
 @media screen and (max-width: 992px) {
-    .add-top{
-         .addt-desc{
+    .add-top {
+        .addt-desc {
             font-size: 76px;
-            line-height: 66px;
-            
+            line-height: 86px;
         }
-        .addt-title{
-            font-size: 24px;
+        .addt-title {
+            font-size: 19px;
             line-height: 24px;
         }
     }
+    .add-vectors1 {
+        padding: 50px 50px 100px;
+    }
+    .add-vectors2 {
+        padding: 50px 50px;
+    }
+    .add-vectors3 {
+        padding: 50px 50px 100px;
+    }
 }
 @media screen and (max-width: 768px) {
+    .add-top {
+        flex-direction: column;
+        text-align: center;
+    }
+    .add-vectors1 {
+        padding: 70px 70px 120px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+    }
+    .add-vectors2 {
+        padding: 70px 70px;
+    }
+    .add-vectors3 {
+        padding: 70px 70px 120px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+        text-align: center;
+    }
+    .add-botom {
+        flex-direction: column;
+        text-align: center;
+    }
 }
 @media screen and (max-width: 576px) {
+    .add-vectors1 {
+        padding: 50px 50px 110px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+    }
+    .add-vectors2 {
+        padding: 50px 50px;
+    }
+    .add-vectors3 {
+        padding: 50px 50px 110px;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+        text-align: center;
+    }
 }

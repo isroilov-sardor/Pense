@@ -1,0 +1,396 @@
+$black-noir: rgba(189, 189, 189, 1);
+$fav-color: rgba(255, 114, 53, 1);
+$whitestt: rgba(255, 255, 255, 1);
+$dark: rgba(41, 40, 48, 1);
+.plan {
+    background-color: #fef9f7;
+    margin-bottom: 200px;
+}
+.plan-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 40px;
+}
+.plan-top {
+    .plant-desc {
+        color: $dark;
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+.plan-botom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plan-1 {
+    padding: 41px 114px 60px 40px;
+    border: 1px solid $whitestt;
+    background-color: $whitestt;
+    border-radius: 12px;
+    .plan1-image {
+        margin-bottom: 24px;
+    }
+    .plan-desc {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 51.74px;
+        color: $dark;
+        margin-bottom: 24px;
+    }
+    .first {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .f-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .second {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .s-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .third {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        .t-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .cost {
+        display: flex;
+        align-items: center;
+        .cost-desc {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 38.81px;
+        }
+        .cost-main {
+            color: $black-noir;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36.81px;
+        }
+    }
+    .cost-info {
+        color: $black-noir;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.4px;
+        margin-bottom: 40px;
+    }
+    .plan-but {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 24px;
+        background-color: $whitestt;
+        color: $fav-color;
+        border-radius: 8px;
+        border: 1px solid $fav-color;
+    }
+    .plan-but:hover {
+        background-color: $dark;
+        transition: 0.4s all;
+    }
+}
+.plan-2 {
+    padding: 41px 114px 60px 40px;
+    border: 1px solid $whitestt;
+    background-color: $whitestt;
+    border-radius: 12px;
+    .plan2-image {
+        margin-bottom: 24px;
+    }
+    .plan-desc {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 51.74px;
+        color: $dark;
+        margin-bottom: 24px;
+    }
+    .first {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .f-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .second {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .s-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .third {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        .t-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .cost {
+        display: flex;
+        align-items: center;
+        .cost-desc {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 38.81px;
+        }
+        .cost-main {
+            color: $black-noir;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36.81px;
+        }
+    }
+    .cost-info {
+        color: $black-noir;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.4px;
+        margin-bottom: 40px;
+    }
+    .plan-but {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 24px;
+        background-color: $fav-color;
+        color: $whitestt;
+        border-radius: 8px;
+        border: 1px solid $fav-color;
+    }
+}
+.plan-3 {
+    padding: 41px 114px 60px 40px;
+    border: 1px solid $whitestt;
+    background-color: $whitestt;
+    border-radius: 12px;
+    .plan3-image {
+        margin-bottom: 24px;
+    }
+    .plan-desc {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 51.74px;
+        color: $dark;
+        margin-bottom: 24px;
+    }
+    .first {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .f-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .second {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        .s-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .third {
+        gap: 8px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px;
+        .t-desc {
+            color: $dark;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+        }
+    }
+    .cost {
+        display: flex;
+        align-items: center;
+        .cost-desc {
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 38.81px;
+        }
+        .cost-main {
+            color: $black-noir;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36.81px;
+        }
+    }
+    .cost-info {
+        color: $black-noir;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 19.4px;
+        margin-bottom: 40px;
+    }
+    .plan-but {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 12px 24px;
+        background-color: $whitestt;
+        color: $fav-color;
+        border-radius: 8px;
+        border: 1px solid $fav-color;
+    }
+    .plan-but:hover {
+        background-color: $dark;
+        transition: 0.4s all;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .plan-1 {
+        padding: 31px 100px 40px 40px;
+    }
+    .plan-2 {
+        padding: 31px 100px 40px 40px;
+    }
+    .plan-3 {
+        padding: 31px 100px 40px 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .plan-botom {
+        border: 1px solid $whitestt;
+        background-color: $whitestt;
+        gap: 20px;
+        padding: 20px 20px;
+    }
+    .plan-1 {
+        max-width: 250px;
+        padding: 0px;
+        border: none;
+    }
+    .plan-2 {
+        max-width: 250px;
+        padding: 0px;
+        border: none;
+    }
+    .plan-3 {
+        max-width: 250px;
+        padding: 0px;
+        border: none;
+    }
+    .plan-top {
+        .plant-desc {
+            font-size: 52px;
+            line-height: 52px;
+        }
+    }
+    .plan-container {
+        padding-top: 40px;
+    }
+    .plan {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .plan-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .plan-botom {
+        border: none;
+        flex-wrap: wrap;
+        background-color: transparent;
+        gap: 0px;
+        .plan-1 {
+            border: 1px solid $whitestt;
+            padding: 61px 134px 81px 61px;
+        }
+        .plan-2 {
+            border: 1px solid $whitestt;
+            padding: 61px 134px 81px 61px;
+        }
+        .plan-3 {
+            border: 1px solid $whitestt;
+            padding: 61px 134px 81px 61px;
+        }
+    }
+}
+@media screen and (max-width: 572px) {
+    .plan-botom {
+        flex-direction: column;
+        border: 1px solid $whitestt;
+        background-color: $whitestt;
+        .plan-1 {
+            border: none;
+            .first {
+                display: none;
+            }
+            .second {
+                display: none;
+            }
+            .third {
+                display: none;
+            }
+        }
+        .plan-2 {
+            border: none;
+            .first {
+                display: none;
+            }
+            .second {
+               display: none;
+            }
+            .third {
+                display: none;
+            }
+        }
+        .plan-3 {
+            border: none;
+            .first {
+                display: none;
+            }
+            .second {
+               display: none;
+            }
+            .third {
+                display: none;
+            }
+        }
+    }
+}
