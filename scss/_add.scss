@@ -1,0 +1,114 @@
+$black-noir: rgba(189, 189, 189, 1);
+$fav-color: rgba(255, 114, 53, 1);
+$whitestt: rgba(255, 255, 255, 1);
+$dark: rgba(41, 40, 48, 1);
+.add-container {
+    .add-top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .add-botom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 250px;
+    }
+}
+.add-top {
+    .addt-desc {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        color: $dark;
+    }
+    .addt-title {
+        width: 432px;
+        height: 156px;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 30px;
+        color: $black-noir;
+    }
+}
+.add-vectors1 {
+    padding: 63px 65px 113px;
+    text-align: center;
+}
+.add-vectors2 {
+    background-color: $whitestt;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+    padding: 63px 65px;
+    text-align: center;
+}
+.add-vectors3 {
+    padding: 63px 65px 113px;
+    text-align: center;
+}
+.add-image-vector1 {
+    border: 1px solid rgba(255, 189, 116, 0.05);
+    background-color: rgba(255, 189, 116, 0.05);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+.add-image-vector2 {
+    border: 1px solid rgba(255, 189, 116, 0.05);
+    background-color: rgba(226, 89, 139, 0.05);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+.add-image-vector3 {
+    border: 1px solid rgba(255, 189, 116, 0.05);
+    background-color: rgba(77, 18, 238, 0.05);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 24px;
+}
+.image-vector {
+    text-align: center;
+}
+.addb-desc {
+    color: $dark;
+    margin-bottom: 12px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+}
+.addb-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: center;
+    color: $black-noir;
+}
+.addb-title1 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: center;
+    color: $black-noir;
+    margin-bottom: 24px;
+}

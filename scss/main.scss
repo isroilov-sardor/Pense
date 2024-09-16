@@ -1,0 +1,23 @@
+@import "./header";
+@import "./enter";
+@import "./statistic";
+@import "./brands";
+@import "./time";
+@import "./free";
+@import "./any";
+@import "./add";
+@import "./plan";
+$fav-color: rgba(255, 114, 53, 1);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    body {
+        font-family: " Hind Siliguri ", sans-serif;
+    }
+    .container {
+        max-width: 1108px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}

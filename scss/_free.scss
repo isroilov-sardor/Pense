@@ -1,0 +1,121 @@
+$black-noir: rgba(189, 189, 189, 1);
+$fav-color: rgba(255, 114, 53, 1);
+$whitestt: rgba(255, 255, 255, 1);
+$dark: rgba(41, 40, 48, 1);
+.free {
+    margin-bottom: 280px;
+}
+.free-container {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.free-right {
+    .free-info {
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35.57px;
+        margin-bottom: 24px;
+        color: $black-noir;
+    }
+    .free-desc {
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        margin-bottom: 24px;
+        color: $dark;
+    }
+    .free-title {
+        color: $black-noir;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 38.81px;
+        margin-bottom: 24px;
+    }
+}
+.free-hero {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: 3s;
+    .fl-desc a{
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $fav-color;
+    }
+}
+.free-hero:hover {
+    transform: translateX(40px);
+    transition: 3s;
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1100px) {
+    .free-right {
+        .free-desc {
+            font-size: 80px;
+            line-height: 80px;
+            margin-bottom: 24px;
+        }
+        .free-title{
+            font-size: 20px;
+            line-height: 34px;
+            margin-bottom: 5px;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .free-right {
+        .free-desc {
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 24px;
+        }
+        .free-title{
+            font-size: 20px;
+            line-height: 24px;
+            margin-bottom: 20px;
+        }
+        .free-info{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 1px;
+        }
+    }
+    .free-links{
+        .fl-desc{
+            font-size: 20px;
+            line-height: 20px;
+        }
+        .fl-image{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    .free-left img{
+        height: 400px;
+        width: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .free-container{
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .fl-image img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .free-hero{
+        text-align: center;
+        display: block;
+    }
+}
+@media screen and (max-width: 576px) {
+}
