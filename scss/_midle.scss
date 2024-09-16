@@ -1,0 +1,105 @@
+$black-noir: rgba(189, 189, 189, 1);
+$fav-color: rgba(255, 114, 53, 1);
+$whitestt: rgba(255, 255, 255, 1);
+$dark: rgba(41, 40, 48, 1);
+.midle {
+    background-image: url(../images/mid-back.png);
+    background-color: #ff7235;
+    background-repeat: no-repeat;
+    margin-bottom: 200px;
+}
+.mid-container {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+     padding-top: 200px;
+    background-repeat: no-repeat;
+    position: relative;
+    .mid-desc {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 72px;
+        color: $whitestt;
+        margin-bottom: 24px;
+    }
+    .mid-info {
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 36px;
+        color: $whitestt;
+        margin-bottom: 60px;
+    }
+    .mid-but{
+        display: flex;
+        align-items: center;
+        padding: 20px 22px;
+        background-color: $whitestt;
+        color: $fav-color;
+        border: 1px solid $fav-color;
+        border-radius: 8px;
+        text-align: center;
+        display: inline;
+    }
+    .mid-img{
+        position: absolute;
+        bottom: -160px;
+        left: -70px;
+        padding-bottom: 200px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:1200px) {
+    .mid-container{
+        .mid-img{
+            position: absolute;
+            bottom: -160px;
+            left: 30px;
+            padding-bottom: 200px;
+            width: 950px;
+            margin: 0 auto;
+        }
+    }
+}
+@media screen and (max-width:992px) {
+    .mid-container{
+        .mid-desc{
+            font-size: 52px;
+            line-height: 62px;
+        }
+        .mid-info{
+            font-size: 30px;
+            line-height: 30px;
+        }
+        .mid-img{
+            position: absolute;
+            bottom: -160px;
+            left: 100px;
+            padding-bottom: 200px;
+            width: 700px;
+            margin: 0 auto;
+        }
+    }
+    
+}
+@media screen and (max-width:810px) {
+    .mid-container{
+        .mid-img{
+            position: absolute;
+            bottom: -160px;
+            right: 10px;
+            padding-bottom: 200px;
+            width: 700px;
+            margin: 0 auto;
+            display: none;
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    
+}
+@media screen and (max-width:576px) {
+    
+}
+
+

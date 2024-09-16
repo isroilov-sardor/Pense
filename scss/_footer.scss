@@ -1,0 +1,33 @@
+$black-noir: rgba(189, 189, 189, 1);
+$fav-color: rgba(255, 114, 53, 1);
+$whitestt: rgba(255, 255, 255, 1);
+$dark: rgba(41, 40, 48, 1);
+.fot-top {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    .foot-links {
+        list-style: none;
+        .footl-nav {
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+}
+.footl-nav {
+    list-style: none;
+    text-decoration: none;
+}
+.footl-nav a {
+    text-decoration: none;
+    color: $dark;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+}
+.footl-desc {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    collor: $dark;
+}
