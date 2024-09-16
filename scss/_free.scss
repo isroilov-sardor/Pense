@@ -107,15 +107,18 @@ $dark: rgba(41, 40, 48, 1);
     }
   
     .fl-image img{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        display: none;
     }
     .free-hero{
         text-align: center;
         display: block;
     }
+    .free-hero:hover{
+        transform: none;
+    }
 }
 @media screen and (max-width: 576px) {
+   
+}.free-left img{
+    width: 389px;
 }

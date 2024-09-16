@@ -8,8 +8,7 @@ $whitestt: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    position: relative;
-    .head-nav {
+      .head-nav {
         list-style: none;
         display: flex;
         align-items: center;
@@ -49,6 +48,7 @@ $whitestt: rgba(255, 255, 255, 1);
 .head-up-check {
     display: none;
 }
+
 #head-up-check {
     display: none;
 }
@@ -64,21 +64,10 @@ $whitestt: rgba(255, 255, 255, 1);
     .enter-container {
         flex-direction: column;
     }
-    .nav {
+    .nav{
         display: none;
-        position: absolute;
-        right: 10px;
-        top: 10px;
-        padding: 20px 20px;
     }
-    .head-nav {
-        padding: 20px 20px;
-        text-align: right;
-        display: flex;
-        flex-direction: column;
-        background-color: aqua;
-    }
-    .burger-menu {
+    .hero-gam {
         span {
             width: 10px;
             height: 10px;
@@ -86,6 +75,7 @@ $whitestt: rgba(255, 255, 255, 1);
             border-radius: 10px;
             background-color: #000;
             display: block;
+            color: red;
             cursor: pointer;
         }
     }
@@ -98,24 +88,24 @@ $whitestt: rgba(255, 255, 255, 1);
     }
     #head-up-check:checked ~ .nav {
         display: block;
-    }
+    
+}
 }
 
 @media screen and (max-width: 576px) {
     .head-but {
         display: none;
     }
-    .burger-menu {
+    .hero-gam {
         span {
-            cursor: pointer;
-            width: 40px;
-            height: 5px;
+            width: 50px;
+            height: 10px;
             margin-bottom: 5px;
-            border-radius: 10px;
+            border-radius: 8px;
             background-color: #000;
             display: block;
+            color: red;
+            cursor: pointer;
         }
     }
 }
-// @media screen and (max-width: 1200px) {
-// }
