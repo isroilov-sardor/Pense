@@ -149,8 +149,16 @@ $dark: rgba(41, 40, 48, 1);
 @media screen and (max-width: 576px) {
     .time-right {
         .time-image {
-            width: 390px;
+            width: 400px;
             height: 350px;
+        }
+    }
+}
+@media screen and (max-width:420px) {
+    .time-right {
+        .time-image {
+            width: 360px;
+            height: 300px;
         }
     }
 }

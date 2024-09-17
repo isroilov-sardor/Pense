@@ -118,7 +118,12 @@ $dark: rgba(41, 40, 48, 1);
     }
 }
 @media screen and (max-width: 576px) {
-   
-}.free-left img{
-    width: 389px;
+    .free-left img{
+        width: 400px;
+    }
+}
+@media screen and (max-width:420px) {
+    .free-left img{
+        width: 360px;
+    }
 }
