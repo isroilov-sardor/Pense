@@ -13,16 +13,6 @@
     <!-- Fav-icon -->
     <link rel="shortcut icon" href="./images/fav-img.png" type="image/x-icon">
     <title>PENSE</title>
-    <script>
-        window.addEventListener ("load", () =>{
-            const loader = document.querySelector(".loader");
-            loader.classList.add(".loader-hidden");
-
-            loader.addEventListener("transitioned", ()=>{
-                document.body.removeChild(loader);
-            });
-        });
-    </script>
 </head>
 
 <body>
@@ -326,5 +316,16 @@
         </div>
     </div>
 </body>
+<script>
+    window.addEventListener("load", () => {
+        const loader = document.querySelector(".loader");
+
+        loader.classList.add(".loader--hidden");
+
+        loader.addEventListener("transitioned", () => {
+            document.body.removeChild(loader);
+        });
+    });
+</script>
 
 </html>
