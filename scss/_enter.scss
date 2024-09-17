@@ -11,9 +11,9 @@ $dark: rgba(41, 40, 48, 1);
 }
 .enter-left {
     .enter-desc {
-        font-size: 96px;
+        font-size: 86px;
         font-weight: 700;
-        line-height: 96px;
+        line-height: 86px;
         color: $dark;
         margin-bottom: 20px;
     }
@@ -38,6 +38,7 @@ $dark: rgba(41, 40, 48, 1);
         border: none;
         border-radius: 8px;
         transition: 1s;
+        cursor: pointer;
     }
     .enter-pr {
         font-size: 24px;

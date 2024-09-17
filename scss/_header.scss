@@ -1,5 +1,36 @@
 $fav-color: rgba(255, 114, 53, 1);
 $whitestt: rgba(255, 255, 255, 1);
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    transition: opacity 0.75s, visibility 0.75s;
+}
+
+.loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #ddd;
+    border-top-color: aqua;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+}
+.loader--hidden{
+    opacity: 0;
+    visibility: hidden;
+
+}
+@keyframes loading{
+    from{ transform: rotate(0turn);}
+    to { transform: rotate( 1turn);}
+}
 .header {
     margin-top: 57px;
     margin-bottom: 107px;
@@ -8,7 +39,7 @@ $whitestt: rgba(255, 255, 255, 1);
     display: flex;
     align-items: center;
     justify-content: space-between;
-      .head-nav {
+    .head-nav {
         list-style: none;
         display: flex;
         align-items: center;
@@ -21,6 +52,7 @@ $whitestt: rgba(255, 255, 255, 1);
         color: $fav-color;
         background-color: $whitestt;
         transition: 1s;
+        cursor: pointer;
     }
 }
 .hero-butons {
@@ -64,7 +96,7 @@ $whitestt: rgba(255, 255, 255, 1);
     .enter-container {
         flex-direction: column;
     }
-    .nav{
+    .nav {
         display: none;
     }
     .hero-gam {
@@ -88,8 +120,7 @@ $whitestt: rgba(255, 255, 255, 1);
     }
     #head-up-check:checked ~ .nav {
         display: block;
-    
-}
+    }
 }
 
 @media screen and (max-width: 576px) {
