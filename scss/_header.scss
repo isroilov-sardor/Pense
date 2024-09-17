@@ -29,6 +29,9 @@ $whitestt: rgba(255, 255, 255, 1);
     align-items: center;
     gap: 20px;
 }
+.ham-menu {
+    display: none;
+}
 .head-nav a {
     color: rgba(41, 40, 48, 1);
     text-decoration: none;
@@ -80,18 +83,13 @@ $whitestt: rgba(255, 255, 255, 1);
             cursor: pointer;
         }
     }
-
     .head-up-check {
         display: block;
     }
     .head-nav {
         background-color: #000;
     }
-    #head-up-check:checked ~ .nav {
-        display: block;
-    }
 }
-
 @media screen and (max-width: 576px) {
     .head-but {
         display: none;

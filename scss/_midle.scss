@@ -12,7 +12,7 @@ $dark: rgba(41, 40, 48, 1);
     text-align: center;
     padding-top: 100px;
     padding-bottom: 200px;
-     padding-top: 200px;
+    padding-top: 200px;
     background-repeat: no-repeat;
     position: relative;
     .mid-desc {
@@ -29,7 +29,7 @@ $dark: rgba(41, 40, 48, 1);
         color: $whitestt;
         margin-bottom: 60px;
     }
-    .mid-but{
+    .mid-but {
         display: flex;
         align-items: center;
         padding: 20px 22px;
@@ -39,8 +39,10 @@ $dark: rgba(41, 40, 48, 1);
         border-radius: 8px;
         text-align: center;
         display: inline;
+        transition: 0.4s ease;
+        cursor: pointer;
     }
-    .mid-img{
+    .mid-img {
         position: absolute;
         bottom: -160px;
         left: -70px;
@@ -48,10 +50,23 @@ $dark: rgba(41, 40, 48, 1);
         width: 1200px;
         margin: 0 auto;
     }
+    .down-images {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 100%;
+        .d-image {
+            width: 100%;
+        }
+    }
+    .mid-but:hover{
+        background-color: $dark;
+        transition: 0.4s ease;
 }
-@media screen and (max-width:1200px) {
-    .mid-container{
-        .mid-img{
+}
+@media screen and (max-width: 1200px) {
+    .mid-container {
+        .mid-img {
             position: absolute;
             bottom: -160px;
             left: 30px;
@@ -61,17 +76,17 @@ $dark: rgba(41, 40, 48, 1);
         }
     }
 }
-@media screen and (max-width:992px) {
-    .mid-container{
-        .mid-desc{
+@media screen and (max-width: 992px) {
+    .mid-container {
+        .mid-desc {
             font-size: 52px;
             line-height: 62px;
         }
-        .mid-info{
+        .mid-info {
             font-size: 30px;
             line-height: 30px;
         }
-        .mid-img{
+        .mid-img {
             position: absolute;
             bottom: -160px;
             left: 100px;
@@ -79,12 +94,21 @@ $dark: rgba(41, 40, 48, 1);
             width: 700px;
             margin: 0 auto;
         }
+        .down-images {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%;
+            .d-image {
+                width: 100%;
+                display: none;
+            }
+        }
     }
-    
 }
-@media screen and (max-width:810px) {
-    .mid-container{
-        .mid-img{
+@media screen and (max-width: 810px) {
+    .mid-container {
+        .mid-img {
             position: absolute;
             bottom: -160px;
             right: 10px;
@@ -95,11 +119,7 @@ $dark: rgba(41, 40, 48, 1);
         }
     }
 }
-@media screen and (max-width:768px) {
-    
+@media screen and (max-width: 768px) {
 }
-@media screen and (max-width:576px) {
-    
+@media screen and (max-width: 576px) {
 }
-
-
